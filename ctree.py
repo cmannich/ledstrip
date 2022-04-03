@@ -1,9 +1,22 @@
 #!/usr/bin/env python3
+
+# Christmas tree lights also with editing of light 3d positioning
+# based on:
+ 
 # rpi_ws281x library strandtest example
 # Author: Tony DiCola (tony@tonydicola.com)
 #
 # Direct port of the Arduino NeoPixel library strandtest example.  Showcases
 # various animations on a strip of NeoPixels.
+
+# How to use position: The position.py file contains the 3 arrays x, y, z, that
+# is the 3d positions for each led in the christmas tree. Copy position1.py to position.py
+# before starting ctree.py. This is done so that we minimize the damage if we owerwrite one of the
+# files by mistake, took me 8 hours to create that file.
+
+ 
+
+
 
 import sys
 import time
